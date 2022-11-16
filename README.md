@@ -3,7 +3,7 @@ This project follows the 'Init' project, where some of basics commands and first
 This one will be a concrete example of the use of those commands and will conclude by starting a web server. 
 
 # Expected Result
-All the commands and scripts used in this project are uploaded in this repository.
+All the commands and scripts used in this project are uploaded in this repository.  
 They are structured following the subject requirements.
 The complete process is described in a documentation that I initiated.
 
