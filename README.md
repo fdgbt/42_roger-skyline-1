@@ -8,15 +8,15 @@ They are structured following the subject requirements.
 The complete process is described in a documentation that I initiated.
 
 # OS Specification
-For this project, the choice of the Operating System is completely free inside the Linux family.
-It has been firstly realised with the Arch Linux OS.
-This was a good choice in term of pedagogy as you must go (very much) deaper with the OS installation and settings.
+For this project, the choice of the Operating System is completely free inside the Linux family.  
+It has been firstly realised with the Arch Linux OS.  
+This was a good choice in term of pedagogy as you must go (very much) deaper with the OS installation and settings.  
 But the learning curve for this advanced OS has been really sub-estimate from my part, and above all, taking much more time than expected.  
 To avoid bad surprise in evaluation and ensure deadlines, the decision has be taken to switch back to the Debian OS.  
 It had the effect to appreciate much more the work of simplification carried out on this kind of Linux distro (like Debian / Ubuntu).
 
 # Special Docs
-Following the great success of the initiative taken in the 'Init' project, a unique document (two in reality) has been created for this project, starting from scratch. 
+Following the great success of the initiative taken in the 'Init' project, a unique document (two in reality) has been created for this project, starting from scratch.  
 In these rare documents you can follow the subject and a reminder for all notions learned, but also explanations for each scripts.  
 It has been designed to be very complete in terms of informations, and represents dozens of hours of research and writing.  
 It takes the form of a tutorial of 85 pages for the Arch Linux OS, and an other one of 30 pages for Debian OS.  
