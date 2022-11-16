@@ -20,7 +20,7 @@ Following the great success of the initiative taken in the 'Init' project, a uni
 In these rare documents you can follow the subject with a reminder for all notions learned, but also explanations for each scripts/commands.  
 It has been designed to be very complete in terms of informations, and represents dozens of hours of research and writing.  
 It takes the form of a tutorial of 85 pages for the Arch Linux OS, and an other one of 30 pages for Debian OS.  
-Both documents allow you to be guided step by step and to complete the project from A to Z.  
+Each document allows you to be guided step by step and to complete the project from A to Z.  
 They can be shared individually upon request.  
 
 I would like to thanks a lot the 42 peers (and friends) who helped me to produce these documents: Julien B., Benjamin W., Sven B., Gautier L. and Radhoin H.  
