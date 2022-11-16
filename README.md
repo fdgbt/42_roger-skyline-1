@@ -4,7 +4,7 @@ This one will be a concrete example of the use of those commands and will conclu
 
 # Expected Result
 All the commands and scripts used in this project are uploaded in this repository.  
-They are structured following the subject requirements.  
+They are structured following the subject structure.  
 The complete process is described in a documentation that I initiated.
 
 # OS Specification
