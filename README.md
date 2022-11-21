@@ -82,4 +82,4 @@ Proposer une solution fonctionnelle d’automatisation de déploiement
 - Bare Git Repository
 - Hook Script
 
-This document is available for Arch Linux (85 pages) and for Debian (30 pages). They can be shared upon request.
+These documents are available for Arch Linux (85 pages) and for Debian (30 pages). They can be shared upon request.
