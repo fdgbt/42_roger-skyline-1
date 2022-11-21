@@ -54,7 +54,7 @@ Stockage de la VM
 ### Partie Réseau et Sécurité
 Créer un utilisateur non root pour se connecter et travailler  
 Utiliser sudo pour pouvoir, depuis cet utilisateur, effectuer les opérations demandant des droits spéciaux  
-Ne pas utiliser le service DHCP et configurer la VM afin qu’elle ait une IP fixe (statique) et un Netmask en /30  
+Ne pas utiliser le service DHCP, configurer la VM afin qu’elle ait une IP fixe (statique) et un Netmask en /30  
 Changer le port par défaut du service SSH  
 L’accès SSH DOIT se faire avec des publickeys  
 L’utilisateur root ne doit pas pouvoir se connecter en SSH  
