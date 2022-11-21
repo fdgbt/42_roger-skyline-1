@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
+cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+
+sudo nano /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/filters.d/apache-dos.conf
+
+sudo systemctl start fail2ban
+sudo fail2ban-client start
+sudo fail2ban-client status
+
+# check DOS: ssh root@10.12.1.254 -p 2222 (3 attempts) / open browser, go to 10.12.1.254 (reload 50 times)

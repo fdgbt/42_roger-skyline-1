@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo crontab -e
+
+# 0 4 * * 1 /home/fdagbert/update_script.sh
+# @reboot /home/fdagbert/update_script.sh

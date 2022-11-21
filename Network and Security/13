@@ -1,0 +1,13 @@
+#!/bin/bash
+CTAB=’/var/spool/cron/crontabs/root’
+CTAB_LAST=’/etc/.crontab_last’
+if [ ! -e $CTAB_LAST ]; then
+    sudo cp $CTAB $CTAB_LAST
+fi
+MD5_CTAB =`md5sum $CTAB | cut -d’ ‘ -f1`
+MD5_LAST =`md5sum $CTAB_LAST | cut -d’ ‘ -f1`
+if [ “$MD5_CTAB” != “$MD5_LAST” ]; then 
+    sudo cat $CTAB | mail -s "Crontab has been edited" root@localhost
+    sudo cp $CTAB $CTAB_LAST
+fi
+fi

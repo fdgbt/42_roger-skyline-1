@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+sudo nano /etc/default/portsentry
+sudo nano /etc/portsentry/portsentry.conf
+sudo nano /etc/portsentry/portsentry.ignore.static
+sudo service portsentry restart
+
+# check opened port: nmap -v 10.12.1.254

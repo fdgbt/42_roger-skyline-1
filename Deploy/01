@@ -1,0 +1,34 @@
+# Create a bare git repository on the server:
+
+git init --bare ~/www/.git
+
+# This is not an ordinary, working, directory.
+# This is only a git repository that stores the git revision history of the repo.
+# Clone this repository on the local machine or add it as remote to you web application repo:
+
+git clone ssh://roger@10.1f.x.y:1337/~/www/.git
+# OR
+git remote add prod roger@10.1f.x.y:1337/~/www/.git
+
+# You can now push to the remote: make a first empty commit to test. 
+# Now, we will create a hook script to add the changes to the server when pushing to master.
+# Create a bash script file ~/www/hooks/post-receive on the server and add this script:
+
+#!/usr/bin/env bash
+#
+# post-receive hook
+# Deploys to production after a push.
+# Only the master reference will trigger a deployment.
+
+while read oldrev newrev ref
+do
+        if [[ $ref =~ .*/master$ ]];
+        then
+                echo "$ref: deploying to production."
+                git --work-tree=/var/www/html --git-dir=/home/roger/www checkout -f
+        else
+                echo "$ref: nothing will be deployed to production."
+        fi
+done
+
+# Now, when pushing master from your local repo to the prod remote, your site will be automatically deployed.

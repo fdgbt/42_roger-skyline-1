@@ -1,0 +1,2 @@
+#!/bin/zsh
+sudo nano /etc/network/interfaces

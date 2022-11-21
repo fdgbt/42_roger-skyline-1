@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo crontab -e
+
+# 0 0 * * * /home/fdagbert/crontab.sh

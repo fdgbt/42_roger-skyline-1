@@ -1,0 +1,4 @@
+#!/bin/zsh
+ssh-keygen -t rsa -b 4096
+# MacOs host command
+# ssh-copy-id -p 2222 fdagbert@10.12.1.254
