@@ -60,11 +60,13 @@ L’accès SSH DOIT se faire avec des publickeys
 L’utilisateur root ne doit pas pouvoir se connecter en SSH  
 Mettre en place des règles de pare-feu (firewall) sur le serveur avec uniquement les services utilisés accessible en dehors de la VM  
 Mettre en place une protection contre les DOS (Denial Of Service Attack) sur les ports ouverts de la VM  
-Dé-bannir une IP de l'un de vos jails  
-Bannir manuellement une IP sur l'un de vos jails  
-limit  
+- Dé-bannir une IP de l'un de vos jails  
+- Bannir manuellement une IP sur l'un de vos jails  
+- limit  
+
 Mettre en place une protection contre les scans sur les ports ouverts de la VM  
-Port Scan Attack Detector: PSAD  
+- Port Scan Attack Detector: PSAD / portSentry  
+
 Arrêter les services dont il n’y a pas besoin pour ce projet  
 Réaliser un script qui met à jour l’ensemble des sources de package, puis des packages  
 Créer une tâche planifiée pour ce script une fois par semaine à 4h00 du matin et à chaque reboot de la machine  
