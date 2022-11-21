@@ -52,26 +52,26 @@ Partitionnement des disques (autre possibilité)
 A faire une fois Arch Linux installé  
 Stockage de la VM  
 ### Partie Réseau et Sécurité
-Créer un utilisateur non root pour se connecter et travailler  
-Utiliser sudo pour pouvoir, depuis cet utilisateur, effectuer les opérations demandant des droits spéciaux  
-Ne pas utiliser le service DHCP, configurer la VM afin qu’elle ait une IP fixe (statique) et un Netmask en /30  
-Changer le port par défaut du service SSH  
-L’accès SSH DOIT se faire avec des publickeys  
-L’utilisateur root ne doit pas pouvoir se connecter en SSH  
-Mettre en place des règles de pare-feu (firewall) sur le serveur avec uniquement les services utilisés accessible en dehors de la VM  
-Mettre en place une protection contre les DOS (Denial Of Service Attack) sur les ports ouverts de la VM  
+1 Créer un utilisateur non root pour se connecter et travailler  
+2 Utiliser sudo pour pouvoir, depuis cet utilisateur, effectuer les opérations demandant des droits spéciaux  
+3 Ne pas utiliser le service DHCP, configurer la VM afin qu’elle ait une IP fixe (statique) et un Netmask en /30  
+4 Changer le port par défaut du service SSH  
+5 L’accès SSH DOIT se faire avec des publickeys  
+6 L’utilisateur root ne doit pas pouvoir se connecter en SSH  
+7 Mettre en place des règles de pare-feu (firewall) sur le serveur avec uniquement les services utilisés accessible en dehors de la VM  
+8 Mettre en place une protection contre les DOS (Denial Of Service Attack) sur les ports ouverts de la VM  
 - Dé-bannir une IP de l'un de vos jails  
 - Bannir manuellement une IP sur l'un de vos jails  
 - limit  
 
-Mettre en place une protection contre les scans sur les ports ouverts de la VM  
+9 Mettre en place une protection contre les scans sur les ports ouverts de la VM  
 - Port Scan Attack Detector (PSAD) / portSentry  
 
-Arrêter les services dont il n’y a pas besoin pour ce projet  
-Réaliser un script qui met à jour l’ensemble des sources de package, puis des packages  
-Créer une tâche planifiée pour ce script une fois par semaine à 4h00 du matin et à chaque reboot de la machine  
-Réaliser un script qui permet de surveiller les modifications du fichier /etc/crontab et envoie un mail à root si celui-ci a été modifié  
-Créer une tâche planifiée pour script tous les jours à minuit  
+10 Arrêter les services dont il n’y a pas besoin pour ce projet  
+11 Réaliser un script qui met à jour l’ensemble des sources de package, puis des packages  
+12 Créer une tâche planifiée pour ce script une fois par semaine à 4h00 du matin et à chaque reboot de la machine  
+13 Réaliser un script qui permet de surveiller les modifications du fichier /etc/crontab et envoie un mail à root si celui-ci a été modifié  
+14 Créer une tâche planifiée pour script tous les jours à minuit  
 ### VI.1 Partie Web
 Mettre en place un serveur web qui doit être disponible sur l’IP de la VM ou un host  
 Packages: Nginx / Apache  
