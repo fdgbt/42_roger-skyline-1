@@ -73,8 +73,10 @@ Réaliser un script qui permet de surveiller les modifications du fichier /etc/c
 Créer une tâche planifiée pour script tous les jours à minuit  
 ### VI.1 Partie Web
 Mettre en place un serveur web qui doit être disponible sur l’IP de la VM ou un host  
-Packages: Nginx / Apache
-Mettre en place du SSL auto-signé sur l’ensemble des services
-Mettre en place une page vitrine
+Packages: Nginx / Apache  
+Mettre en place du SSL auto-signé sur l’ensemble des services  
+Mettre en place une page vitrine  
 ### VI.2 Partie Déploiement
-Proposer une solution fonctionnelle d’automatisation de déploiement (=> Bare Git Repository + Hook Script)
+Proposer une solution fonctionnelle d’automatisation de déploiement  
+- Bare Git Repository
+- Hook Script
