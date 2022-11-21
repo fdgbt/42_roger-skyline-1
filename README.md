@@ -21,7 +21,7 @@ In these rare documents you can follow the subject with a reminder for all notio
 It has been designed to be very complete in terms of informations, and represents dozens of hours of research and writing.  
 It takes the form of a tutorial of 85 pages for the Arch Linux OS, and an other one of 30 pages for Debian OS.  
 Each document allows you to be guided step by step and to complete the project from A to Z.  
-They can be shared individually upon request.  
+They can be shared upon request.  
 
 I would like to thanks a lot the 42 peers (and friends) who helped me to produce these documents: Julien B., Benjamin W., Sven B., Gautier L. and Radhoin H.  
 
@@ -38,7 +38,7 @@ Installer une VM à 42 (Mac OS X)
 Installer VirtualBox  
 Installer une VM dans VirtualBox  
 ### V.2 Partie VM
-Installer Arch Linux dans la VM  
+Installer Arch Linux dans la VM
 - Changement de la disposition du clavier  
 - Vérification la connexion au réseau  
 - Mise à jour de l’heure du système  
@@ -81,3 +81,5 @@ Mettre en place une page vitrine
 Proposer une solution fonctionnelle d’automatisation de déploiement  
 - Bare Git Repository
 - Hook Script
+
+This document is available for Arch Linux (85 pages) and for Debian (30 pages). They can be shared upon request.
