@@ -23,7 +23,7 @@ It takes the form of a tutorial of 85 pages for the Arch Linux OS, and an other 
 Each document allows you to be guided step by step and to complete the project from A to Z.  
 They can be shared upon request.  
 
-I would like to thanks a lot the 42 peers (and friends) who helped me to produce these documents: Julien B., Benjamin W., Sven B., Gautier L. and Radhoin H.  
+I would like to thanks a lot the 42 peers (and friends) who helped me to produce these documents: Julien B., Sven B., Benjamin W., Gautier L. and Radhoin H.  
 
 Unfortunately only French is available for now, the content is organised as below:
 
