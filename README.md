@@ -65,7 +65,7 @@ Mettre en place une protection contre les DOS (Denial Of Service Attack) sur les
 - limit  
 
 Mettre en place une protection contre les scans sur les ports ouverts de la VM  
-- Port Scan Attack Detector: PSAD / portSentry  
+- Port Scan Attack Detector (PSAD) / portSentry  
 
 Arrêter les services dont il n’y a pas besoin pour ce projet  
 Réaliser un script qui met à jour l’ensemble des sources de package, puis des packages  
