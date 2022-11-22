@@ -82,5 +82,5 @@ Proposer une solution fonctionnelle d’automatisation de déploiement
 ### Conclusion
 
 # Reminder
-These documents are available for Arch Linux (85 pages) and for Debian (30 pages).  
+These documents are available in French for Arch Linux (85 pages) and for Debian (30 pages).  
 They can be shared upon request.
