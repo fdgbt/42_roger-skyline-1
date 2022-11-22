@@ -86,6 +86,6 @@ These documents are available in French for Arch Linux (85 pages) and for Debian
 They can be shared upon request.
 
 # Keywords
-System & Network Administration
-Unix
+System & Network Administration  
+Unix  
 DevOps
