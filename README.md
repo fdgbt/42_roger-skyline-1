@@ -84,3 +84,8 @@ Proposer une solution fonctionnelle d’automatisation de déploiement
 # Reminder
 These documents are available in French for Arch Linux (85 pages) and for Debian (30 pages).  
 They can be shared upon request.
+
+# Keywords
+System & Network Administration
+Unix
+DevOps
