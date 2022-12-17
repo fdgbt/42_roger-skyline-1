@@ -71,7 +71,7 @@ VM storage
 10 Stop services not needed for this project  
 11 Make a script that updates all package sources, then the packages themselves  
 12 Create a scheduled task for this script once a week at 4:00 am and each time the machine reboots  
-13 Create a script that monitors changes of the /etc/crontab file and sends an email to root if it has been modified  
+13 Create a script that monitors changes in the /etc/crontab file and sends an email to the root if it has been modified  
 14 Create scheduled task for this script every day at midnight  
 
 ### VI.1 Web Part
