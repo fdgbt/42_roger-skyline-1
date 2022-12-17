@@ -9,7 +9,7 @@ The complete process is described in a documentation that I initiated.
 
 # OS Specification
 For this project, the choice of the Operating System is completely free inside the Linux family.  
-It has been firstly realized with the Arch Linux OS.  
+In my case, it has been firstly realized with the Arch Linux OS.  
 This was a good choice in term of pedagogy as you must go (very much) deaper with the OS installation and settings.  
 But the learning curve for this advanced OS has been really sub-estimate from my part, and above all, taking much more time than expected.  
 To avoid bad surprise in evaluation and ensure deadlines, the decision has be taken to switch back to the Debian OS.  
