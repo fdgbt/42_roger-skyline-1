@@ -27,28 +27,31 @@ I would like to thanks a lot the 42 peers (and friends) who helped me to produce
 
 Unfortunately only French is available for now, the content is organised as below:
 
-### Remerciements
-### Versions du document
-### Table des matières
+### Thanks
+### Versions of document
+### Summary
 ### Introduction
-### V.1 Soyons plus que copain
-Installer une VM à 42 (Mac OS X)  
-Installer VirtualBox  
-Installer une VM dans VirtualBox  
-### V.2 Partie VM
-Installer Arch Linux dans la VM
-- Changement de la disposition du clavier  
-- Vérification la connexion au réseau  
-- Mise à jour de l’heure du système  
-- Partitionnement des disques  
-Partitionnement des disques (autre possibilité)  
-- Formatage des partitions  
-- Montage les partitions  
-- Sélection du miroir  
-- Configuration du système  
 
-A faire une fois Arch Linux installé  
-Stockage de la VM  
+### V.1 Be more than friend
+Install a VM at 42 (Mac OS X)  
+Install VirtualBox  
+Install a VM in VirtualBox  
+
+### V.2 VM Part
+Install Arch Linux in the VM  
+- Change the keyboard layout  
+- Check network connection  
+- Update the time system  
+- Disk partitioning  
+- Disk partitioning (alternative method)  
+- Partition formatting  
+- Mounting partitions  
+- Mirror selection  
+- System Setup  
+
+What to do once Arch Linux is installed  
+VM storage  
+
 ### Partie Réseau et Sécurité
 1 Créer un utilisateur non root pour se connecter et travailler  
 2 Utiliser sudo pour pouvoir, depuis cet utilisateur, effectuer les opérations demandant des droits spéciaux  
