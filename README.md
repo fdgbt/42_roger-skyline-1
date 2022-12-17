@@ -64,8 +64,10 @@ VM storage
 - Unban an IP from one of your jails  
 - Manually ban an IP on one of your jails  
 - limit module  
+
 9 Set up protection against scans on open ports of the VM  
 - Port Scan Attack Detector (PSAD) / portSentry  
+
 10 Stop services not needed for this project  
 11 Make a script that updates all package sources, then packages themselves  
 12 Create a scheduled task for this script once a week at 4:00 am and each time the machine reboots  
