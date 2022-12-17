@@ -1,5 +1,5 @@
 # 42_roger-skyline-1
-This project follows the 'Init' project, where some of basics commands and first reflexes in system and network administration are learned.  
+This project follows the 'Init' project, where some of basics commands and first reflexes in systems and networks administration are learned.  
 This one will be a concrete example of the use of those commands and will conclude by starting a web server. 
 
 # Expected Result
