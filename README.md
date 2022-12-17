@@ -72,7 +72,7 @@ VM storage
 11 Make a script that updates all package sources, then the packages themselves  
 12 Create a scheduled task for this script once a week at 4:00 am and each time the machine reboots  
 13 Create a script that monitors changes in the /etc/crontab file and sends an email to root (admin) if it has been modified  
-14 Create scheduled task for this script every day at midnight  
+14 Create a scheduled task for this script every day at midnight  
 
 ### VI.1 Web Part
 Set up a web server which must be available on the IP of the VM or a host  
